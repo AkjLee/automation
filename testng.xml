@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browserType" value="chrome" />
+    <parameter name="appURL"  value="https://rise.fairsketch.com/" />
+    <test verbose="2" preserve-order="true" name="C:/Users/Admin/IdeaProjects/MavenAuto/src/test/java/PageOjectModel/testcase" >
+        <classes>
+            <class name="automation.Testng.Testng">
+                <methods>
+                    <include name="run"/>
+<!--                    <include name="checkPage"/>-->
+<!--                    <include name="addProduct"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
